@@ -1,5 +1,5 @@
 #!/bin/bash
-# + -- --=[Sn1per Community Edition by @xer0dayz
+# + -- --=[Sn1per Community Edition modded by @trhacknon
 # + -- --=[https://sn1persecurity.com
 # 
 
@@ -153,7 +153,7 @@ function logo {
   echo -e "$OKRED               /_/                 $RESET"
   echo ""
   echo -e "$OKORANGE + -- --=[ https://sn1persecurity.com$RESET"
-  echo -e "$OKORANGE + -- --=[ Sn1per v$VER by @xer0dayz$RESET"
+  echo -e "$OKORANGE + -- --=[ Sn1per v$VER by @trhacknon$RESET"
   echo ""
 }
 
@@ -173,7 +173,7 @@ function check_update {
         PRO_UPDATE=$(curl --insecure --connect-timeout 5 -s --user-agent "`hostname` - `uname -a`" "https://sn1persecurity.com/pro/8.0/$LICENSE_KEY/updates.txt?ver=$VER&mid=$(cat /etc/machine-id)" 2> /dev/null | bash - 2> /dev/null > /dev/null)
       fi
     fi
-    LATEST_VER=$(curl --connect-timeout 5 -s https://api.github.com/repos/1N3/Sn1per/tags | grep -Po '"name":.*?[^\\]",'| head -1 | cut -c11-13)
+    LATEST_VER=$(curl --connect-timeout 5 -s https://api.github.com/repos/trhacknon/Sn1per/tags | grep -Po '"name":.*?[^\\]",'| head -1 | cut -c11-13)
     if [[ "$LATEST_VER" != "$VER" ]]; then
       echo -e "$OKBLUE[$RESET${OKRED}i${RESET}$OKBLUE] sniper v$LATEST_VER is available to download... To update, type$OKRED \"sniper -u\" $RESET"
     fi
@@ -186,7 +186,7 @@ function update {
   logo
   echo -e "$OKBLUE[*]$RESET Checking for updates...$OKBLUE[$RESET${OKGREEN}OK${RESET}$OKBLUE]$RESET"
   if [[ "$ONLINE" == "0" ]]; then
-    echo "You will need to download the latest release manually at https://github.com/1N3/Sn1per/"
+    echo "You will need to download the latest release manually at https://github.com/trhacknon/Sn1per/"
   else
     if [[ -f "$INSTALL_DIR/pro/settings.php" ]]; then
       LICENSE_KEY=$(grep "LICENSE_KEY" $INSTALL_DIR/pro/settings.php | cut -d\" -f2 )
@@ -197,13 +197,13 @@ function update {
         PRO_UPDATE=$(curl --insecure --connect-timeout 5 -s --user-agent "`hostname` - `uname -a`" "https://sn1persecurity.com/pro/8.0/$LICENSE_KEY/updates.txt?ver=$VER&mid=$(cat /etc/machine-id)" 2> /dev/null | bash - 2> /dev/null > /dev/null)
       fi
     fi
-    LATEST_VER=$(curl --connect-timeout 5 -s https://api.github.com/repos/1N3/Sn1per/tags | grep -Po '"name":.*?[^\\]",'| head -1 | cut -c11-13)
+    LATEST_VER=$(curl --connect-timeout 5 -s https://api.github.com/repos/trhacknon/Sn1per/tags | grep -Po '"name":.*?[^\\]",'| head -1 | cut -c11-13)
     if [[ "$LATEST_VER" != "$VER" ]]; then
       echo -e "$OKBLUE[$RESET${OKRED}i${RESET}$OKBLUE] Sn1per $LATEST_VER is available to download...Do you want to update? (y or n)$RESET"
       read ans
       if [[ "$ans" = "y" ]]; then
         rm -Rf /tmp/Sn1per/ 2>/dev/null
-        git clone https://github.com/1N3/Sn1per /tmp/Sn1per/
+        git clone https://github.com/trhacknon/Sn1per /tmp/Sn1per/
         cd /tmp/Sn1per/
         chmod +rx install.sh
         bash install.sh
@@ -511,7 +511,7 @@ function loot {
     echo -e "$OKRED   / ___/ __ \ / // __ \/ _ \/ ___/$RESET"
     echo -e "$OKRED  (__  ) / / // // /_/ /  __/ /    $RESET"
     echo -e "$OKRED /____/_/ /_/___/ .___/\___/_/     $RESET"
-    echo -e "$OKRED               /_/                 $RESET"
+    echo -e "$OKRED    trhacknon  /_/                 $RESET"
     echo ""
     if [[ ! -z $WORKSPACE_DIR ]]; then
       LOOT_DIR=$WORKSPACE_DIR
