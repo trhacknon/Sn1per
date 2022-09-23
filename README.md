@@ -77,7 +77,7 @@ Export vulnerability reports in CSV, XLS or PDF format for your entire attack su
 
 ## KALI/UBUNTU/DEBIAN/PARROT LINUX INSTALL
 ```
-git clone https://github.com/1N3/Sn1per
+git clone https://github.com/trhacknon/Sn1per
 cd Sn1per
 bash install.sh
 ```
@@ -97,7 +97,7 @@ To install Sn1per using an AWS EC2 instance:
 
 From a new Docker console, run the following commands.
 ```
-Download https://raw.githubusercontent.com/1N3/Sn1per/master/Dockerfile
+Download https://raw.githubusercontent.com/trhacknon/Sn1per/master/Dockerfile
 docker build -t sn1per . 
 docker run -it sn1per /bin/bash
 
@@ -217,28 +217,28 @@ sniper -u|--update
 * **MASSVULNSCAN:** Launches a "vulnscan" mode scans on multiple targets specified via the "-f" switch.
 
 ## HELP TOPICS
-- [x] Plugins & Tools (https://github.com/1N3/Sn1per/wiki/Plugins-&-Tools)
-- [x] Scheduled scans (https://github.com/1N3/Sn1per/wiki/Scheduled-Scans)
-- [x] Sn1per Configuration Options (https://github.com/1N3/Sn1per/wiki/Sn1per-Configuration-Options)
-- [x] Sn1per Configuration Templates (https://github.com/1N3/Sn1per/wiki/Sn1per-Configuration-Templates)
-- [x] Sc0pe Templates (https://github.com/1N3/Sn1per/wiki/Sc0pe-Templates)
+- [x] Plugins & Tools (https://github.com/trhacknon/Sn1per/wiki/Plugins-&-Tools)
+- [x] Scheduled scans (https://github.com/trhacknon/Sn1per/wiki/Scheduled-Scans)
+- [x] Sn1per Configuration Options (https://github.com/trhacknon/Sn1per/wiki/Sn1per-Configuration-Options)
+- [x] Sn1per Configuration Templates (https://github.com/trhacknon/Sn1per/wiki/Sn1per-Configuration-Templates)
+- [x] Sc0pe Templates (https://github.com/trhacknon/Sn1per/wiki/Sc0pe-Templates)
 
 ## INTEGRATION GUIDES
-- [x] Github API integration (https://github.com/1N3/Sn1per/wiki/Github-API-Integration)
-- [x] Burpsuite Professional 2.x integration (https://github.com/1N3/Sn1per/wiki/Burpsuite-Professional-2.x-Integration)
-- [x] OWASP ZAP integration (https://github.com/1N3/Sn1per/wiki/OWASP-ZAP-Integration)
-- [x] Shodan API integration (https://github.com/1N3/Sn1per/wiki/Shodan-Integration)
-- [x] Censys API integration (https://github.com/1N3/Sn1per/wiki/Censys-API-Integration)
-- [x] Hunter.io API integration (https://github.com/1N3/Sn1per/wiki/Hunter.io-API-Integration)
-- [x] Metasploit integration (https://github.com/1N3/Sn1per/wiki/Metasploit-Integration)
-- [x] Nessus integration (https://github.com/1N3/Sn1per/wiki/Nessus-Integration)
-- [x] OpenVAS API integration (https://github.com/1N3/Sn1per/wiki/OpenVAS-Integration)
-- [x] GVM 21.x integration (https://github.com/1N3/Sn1per/wiki/GVM-21.x-Integration)
-- [x] Slack API integration (https://github.com/1N3/Sn1per/wiki/Slack-API-Integration)
-- [x] WPScan API integration (https://github.com/1N3/Sn1per/wiki/WPScan-API-Integration)
+- [x] Github API integration (https://github.com/trhacknon/Sn1per/wiki/Github-API-Integration)
+- [x] Burpsuite Professional 2.x integration (https://github.com/trhacknon/Sn1per/wiki/Burpsuite-Professional-2.x-Integration)
+- [x] OWASP ZAP integration (https://github.com/trhacknon/Sn1per/wiki/OWASP-ZAP-Integration)
+- [x] Shodan API integration (https://github.com/trhacknon/Sn1per/wiki/Shodan-Integration)
+- [x] Censys API integration (https://github.com/trhacknon/Sn1per/wiki/Censys-API-Integration)
+- [x] Hunter.io API integration (https://github.com/trhacknon/Sn1per/wiki/Hunter.io-API-Integration)
+- [x] Metasploit integration (https://github.com/trhacknon/Sn1per/wiki/Metasploit-Integration)
+- [x] Nessus integration (https://github.com/trhacknon/Sn1per/wiki/Nessus-Integration)
+- [x] OpenVAS API integration (https://github.com/trhacknon/Sn1per/wiki/OpenVAS-Integration)
+- [x] GVM 21.x integration (https://github.com/trhacknon/Sn1per/wiki/GVM-21.x-Integration)
+- [x] Slack API integration (https://github.com/trhacknon/Sn1per/wiki/Slack-API-Integration)
+- [x] WPScan API integration (https://github.com/trhacknon/Sn1per/wiki/WPScan-API-Integration)
 
 ## LICENSE & LEGAL AGREEMENT
-For license and legal information, refer to the LICENSE.md (https://github.com/1N3/Sn1per/blob/master/LICENSE.md) file in this repository.
+For license and legal information, refer to the LICENSE.md (https://github.com/trhacknon/Sn1per/blob/master/LICENSE.md) file in this repository.
 
 ## PURCHASE SN1PER PROFESSIONAL
 To obtain a Sn1per Professional license, go to https://sn1persecurity.com.
