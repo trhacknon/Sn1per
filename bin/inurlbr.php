@@ -12,19 +12,18 @@
   +-----------------------------------------------------------------------------+
 
 
-  [+] AUTOR:        Cleiton Pinheiro / Nick: googleINURL
-  [+] Blog:         http://blog.inurl.com.br
-  [+] Twitter:      https://twitter.com/googleinurl
-  [+] Fanpage:      https://fb.com/InurlBrasil
-  [+] Pastebin      http://pastebin.com/u/Googleinurl
-  [+] GIT:          https://github.com/googleinurl
-  [+] PSS:          http://packetstormsecurity.com/user/googleinurl
-  [+] EXA:          http://exploit4arab.net/author/248/Cleiton_Pinheiro
-  [+] YOUTUBE:      http://youtube.com/c/INURLBrasil
-  [+] PLUS:         http://google.com/+INURLBrasil
+  [+] AUTOR:        trhacknon / ANONYMOUS
+  [+] Twitter:      https://twitter.com/
+  [+] Fanpage:      https://fb.com/
+  [+] Pastebin      http://pastebin.com/u/trhacknon
+  [+] GIT:          https://github.com/trhacknon
+  [+] PSS:          http://packetstormsecurity.com/user/
+  [+] EXA:          http://exploit4arab.net/
+  [+] YOUTUBE:      http://youtube.com/c/
+  [+] PLUS:         http://google.com/
 
   [+] SCRIPT NAME: INURLBR 2.1
-  INURLBR scanner was developed by Cleiton Pinheiro, owner and founder of INURL - BRASIL.
+  INURLBR scanner was modded by trhacknon , owner and founder of INURL - BRASIL.
   Tool made ​​in PHP that can run on different Linux distributions helps
   hackers / security professionals in their specific searches.
   With several options are automated methods of exploration, AND SCANNER is
@@ -83,7 +82,7 @@
   +--------------------------------------------------------------------------------------+
   |  |  |                            G R 3 3 T S                                   |  |  |
   +--------------------------------------------------------------------------------------+
- * r00t-3xp10t, Jh00n, chk_,  Unknownantisec,  sl4y3r 0wn3r, hc0d3r, arplhmd, 0x4h4x
+ * trhacknon, anonymous red hat systdown, lvilainanticap,  sekomtuveu,  jelena, lmarsup, arplhmd, 0x4h4x
  * Clandestine, KoubackTr, SnakeTomahawk, SkyRedFild, Lorenzo Faletra, Eclipse, shaxer   
  * dd3str0y3r, Johnny Deep, Lenon Leite, pSico_b0y, Bakunim_Malvadão, IceKiller, c00z  
  * Oystex, rH, Warflop, se4b3ar 
@@ -3791,13 +3790,13 @@ ________________[_]_[_]_[_]________/_]_[_\_________________________
                            ______                                  
                         .-.      .-.                               
                        /            \                              
-                      |  [ INURLBR ] |                             
+                      |  [TRHACKNON] |                             
                       |,  .-.  .-.  ,|                             
                       | )(|_/  \|_)( |                             
                       |/     /\     \|                             
               _       (_     ^^     _)                             
       _\ ____) \_______\__|IIIIII|__/_______________________________     
-     (_)[___]{}<________|-\IIIIII/-|__INURL__INURL__INURL___________\    
+     (_)[___]{}<________|-\IIIIII/-|__TRHACKNON_____________________\    
        /     )_/        \          /                               
                          \ ______ / 
 ", "{$_SESSION["c1"]}
